@@ -128,7 +128,7 @@ h6 {font-size: 17px; line-height: 26px;}
 .header-3 #header-wrap.fixed-header .navbar-toggler span {background: #2575fc;}
 
 /*Banner*/
-.fullscreen-banner{height: auto !important; padding: 150px 0 100px !important; min-height: inherit;}
+.fullscreen-banner{height: auto !important; padding: 115px 0 0px !important; min-height: inherit;}
 .fullscreen-banner .align-center{position: inherit; transform: inherit; padding-top: 0 !important}
 .page-title {padding: 160px 0;}
 .page-title h1 {font-size: 40px; line-height: 50px;}

@@ -73,7 +73,8 @@ p{line-height: 1.7;}
 .z-index-0{z-index: 0; position: relative;}
 .z-index-1{z-index: 1; position: relative;}
 h1 span{color: #2575fc;}
-section{padding: 80px 0;}
+section{padding: 40px 0;}
+section.about{padding: 0;}
 .section-title{margin-bottom:50px; position: relative;}
 .section-title p{font-size: 16px;}
 .align-item-middle{display: -webkit-flex; /* Safari */  -webkit-align-items: center; /* Safari 7.0+ */  display: flex; align-items: center;}
@@ -288,7 +289,7 @@ inset 0 30px 0 rgba(5,248,161, 0.4), inset -30px 0 0 rgba(255,8,68, 0.4), inset 
 .list-icon-2 li{padding-left: 20px; position: relative;}
 .list-icon-2 li:before{content: ""; background: #2575fc; position: absolute; top: 8px; left: 0; width: 10px; height: 2px; border-radius: 4px;}
 .custom-li{display: inline-block;}
-.custom-li li {float: left; margin-bottom: 15px; width: calc(100% / 2);}
+.custom-li li {/*float: left;*/ margin-bottom: 15px; /*width: calc(100% / 2);*/}
 
 
 /* ------------------------
