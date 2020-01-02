@@ -485,6 +485,10 @@ Partner CSS
   position: relative;
 }
 
+.partner-section .partner-inner a.partner4{
+  margin-top: 14px; 
+}
+
 .partner-section .partner-inner a img:last-child {
   position: absolute;
   top: 15px;
