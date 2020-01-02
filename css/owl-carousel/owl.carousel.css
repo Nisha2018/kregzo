@@ -210,3 +210,8 @@
 .owl-carousel .owl-item.center{transform: scale(1.1); z-index: 99;}
 
 .owl-carousel.owl-nav2 .owl-nav {width: auto; text-align: left; bottom: 10%; transform: inherit; left: -60%;}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+}
