@@ -106,7 +106,7 @@ h1 span,
 .counter i,
 .featured-item.style-1:hover .featured-icon i,
 .featured-item.style-2:hover .featured-icon i,
-.featured-item.style-6:hover .featured-icon i{color: #2ec78d}
+.featured-item.style-6:hover .featured-icon i{color: #003366}
 
 /* ------------------------
     Border Color
@@ -124,7 +124,7 @@ h1 span,
 .testimonial.style-2 .testimonial-img:after,
 .contact-media,
 .timeline-inner::before
-{border-color: #05f8a1;}
+{border-color: #003366;}
 
 [class*="col-"]:nth-child(2) .contact-media
 {border-color: #2ec78d;}
@@ -132,12 +132,17 @@ h1 span,
 /* ------------------------
   Grediant Color
 ------------------------*/
+.btn.btn-theme{
+	background: #003366;
+}
+
 .btn.btn-theme,
 .owl-carousel .owl-nav button.owl-prev:hover,
-.owl-carousel .owl-nav button.owl-next:hover{background: rgb(5,248,161); background: linear-gradient(90deg, rgba(5,248,161,1) 0%, rgba(46,199,141,1) 80%);  color: #ffffff;}
+.owl-carousel .owl-nav button.owl-next:hover{background: #003366;  color: #ffffff;}
 [data-overlay].grediant-overlay:before{background: rgb(5,248,161); background: linear-gradient(90deg, rgba(5,248,161,1) 0%, rgba(46,199,141,1) 80%);}
 .featured-item::before {background: rgb(5,248,161); background: linear-gradient(180deg, rgba(5,248,161,1) 0%, rgba(46,199,141,1) 80%);}
 .grediant-bg{background: rgb(5,248,161); background: linear-gradient(90deg, rgba(5,248,161,1) 0%, rgba(46,199,141,1) 80%);}
+
 
 @media (max-width: 992px){
 .navbar-toggler span{background-color: #f90;}
