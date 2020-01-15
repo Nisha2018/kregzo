@@ -81,6 +81,10 @@ section.about{padding: 0;}
 .align-item-middle > div{width: 100%;}
 .la{line-height: inherit;}
 
+section#blog {
+    padding: 40px 0 0px;
+}
+
 .font-w-3{font-weight: 300;}
 .font-w-4{font-weight: 400;}
 .font-w-5{font-weight: 500;}
@@ -133,7 +137,7 @@ section.about{padding: 0;}
 /* ------------------------
     Banner
 ------------------------*/
-.fullscreen-banner{position: relative; min-height: 800px;}
+.fullscreen-banner{position: relative; min-height: 594px;}
 [data-bg-img]{background-size: cover; background-position: center center; background-repeat: no-repeat;}
 .align-center{position: absolute; top: 50%; width: 100%; z-index: 9;}
 .align-end{position: absolute; bottom: 0; width: 100%; z-index: 9;}
@@ -533,4 +537,8 @@ Partner CSS
 
 .tab-content .info{
   font-size: 18px;
+}
+
+.img-fluid.explorer{
+  width: 450px;
 }

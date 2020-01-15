@@ -264,6 +264,10 @@ h3 {font-size: 20px; line-height: 28px;}
 h4 {font-size: 18px; line-height: 26px;}
 .section-title h2{font-size: 28px; line-height: 36px;}
 
+.footer-1 {
+    padding-top: 79px;
+}
+
 /*Margin*/
 .xs-mt-0{margin-top: 0 !important;}
 .xs-mt-1{margin-top: 10px !important;}
@@ -369,6 +373,17 @@ h4 {font-size: 18px; line-height: 26px;}
 .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {font-size: 30px; margin: 0 5px; padding: 6px 40px !important;}
 .morph-wrap{top: 8%;}
 
+}
+
+@media (min-width: 992px){
+	.fullscreen-banner .img-side {
+      padding-left: 111px;
+      padding-top: 100px;
+	}
+
+	#home .container{
+		padding-top: 140px;
+	}
 }
 
 
