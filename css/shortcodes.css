@@ -230,7 +230,8 @@
 .tab .nav-tabs .nav-link:last-child{margin-right: 0;}
 .tab .nav-tabs .nav-link.active, .tab .nav-tabs .nav-link:hover, .tab .nav-tabs.active > a:focus, .tab .nav-tabs > a:hover{background: #2575fc; color: #ffffff;}
 .tab .tab-content{padding: 30px;}
-.tab .nav-tabs{display: table; width: 100%; text-align: center;}
+.tab .nav-tabs{display: grid;
+    grid-template-columns: 1fr 1fr 1fr; width: 100%; text-align: center;}
 
 .tab.style-2{padding-top: 30px;}
 .tab.style-2 .nav-tabs .nav-link{background: none !important; padding: 0; display: table-cell; width: auto; float: none;}

@@ -431,6 +431,25 @@ Ready To Talk CSS
   background: #ffffff;
 }*/
 
+#home .btn-primary{
+  background: #f90;
+  color: #fff;
+  padding: 15px 25px;
+}
+
+#home .btn-primary:hover{
+  background: #003366;
+}
+
+#home h1{
+  color: #003366;
+}
+
+#home .text-bottom{
+  padding: 10px;
+  font-size: 20px;
+}
+
 .ready-to-talk .btn-primary {
   background: #f90;
   color: #fff;
@@ -449,6 +468,7 @@ Ready To Talk CSS
   color: #ffffff;
   text-decoration: underline;
 }
+
 
 /*================================================
 Partner CSS
@@ -509,4 +529,8 @@ Partner CSS
 
 .partner-section .partner-inner img{
   width: 115px;
+}
+
+.tab-content .info{
+  font-size: 18px;
 }
