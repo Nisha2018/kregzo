@@ -538,6 +538,8 @@
 .btn.btn-white{background: #ffffff; color: #1c1d3e}
 .btn.btn-white.btn-border{border-color: #ffffff; background: none; color: #ffffff;}
 .btn.btn-white:hover{background: #ffffff; color: #005bea;}
+.btn.btn-orange{background: #f90;
+    color: #fff;}
 .btn.btn-white.btn-border:hover{color: #005bea;}
 .btn + .btn{margin-left: 10px;}
 .btn-simple{color: #1c1d3e; padding: 0; background: none !important; box-shadow: none;}

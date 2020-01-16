@@ -531,24 +531,25 @@ Partner CSS
   visibility: visible;
 }
 
-.partner-section .partner-inner img{
+/*.partner-section .partner-inner img{
   width: 125px;
-}
+}*/
 
 .tab-content .info{
   font-size: 18px;
+  font-weight: 500;
 }
 
 .img-fluid.explorer{
   width: 450px;
 }
 
-.partner-area .precision{
+/*.partner-area .precision{
   width: 140px;
   position: relative;
   top: -10px;
   left: -12px;
-}
+}*/
 
 .partner-section .partner-inner a img:last-child.precision{
 
@@ -557,5 +558,9 @@ Partner CSS
 .about .aboutus{
   padding-top: 76px;
 }
+
+/*.partner-inner img.aqugen{
+  width: 90px;
+}*/
 
 
