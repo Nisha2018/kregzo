@@ -543,4 +543,19 @@ Partner CSS
   width: 450px;
 }
 
+.partner-area .precision{
+  width: 140px;
+  position: relative;
+  top: -10px;
+  left: -12px;
+}
+
+.partner-section .partner-inner a img:last-child.precision{
+
+}
+
+.about .aboutus{
+  padding-top: 76px;
+}
+
 
