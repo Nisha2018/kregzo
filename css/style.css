@@ -412,14 +412,13 @@ Ready To Talk CSS
 .ready-to-talk {
   text-align: center;
   position: relative;
-  padding-top: 80px;
-  padding-bottom: 160px;
-  /*background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);*/
+  padding-top: 50px;
+  padding-bottom: 120px;
   background: linear-gradient(135deg, #023567 0%, #2169af 57%);
 }
 
 .ready-to-talk h3 {
-  font-size: 28px;
+  font-size: 35px;
   color: #ffffff;
   text-transform: capitalize;
   margin-bottom: 15px;
