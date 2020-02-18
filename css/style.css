@@ -502,6 +502,11 @@ Partner CSS
   margin-top: 25px;
 }
 
+.partner-section .partner-inner img{
+  width: 130px;
+  height: auto;
+}
+
 .partner-section .partner-inner a {
   display: block;
   margin-top: 25px;
