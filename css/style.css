@@ -68,7 +68,7 @@ p{line-height: 1.7;}
 .lead{font-weight: normal; font-size: 16px; line-height: 30px;}
 .o-hidden{overflow: hidden;}
 .o-x-hidden{overflow-x: hidden;}
-.img-center{display: inline-block !important; max-width: 100%;}
+.img-center,.owl-carousel .owl-item .clients-logo img{display: inline-block !important; max-width: 100%;}
 .pos-r{position: relative;}
 .z-index-0{z-index: 0; position: relative;}
 .z-index-1{z-index: 1; position: relative;}
@@ -83,6 +83,10 @@ section.about{padding: 0;}
 
 section#blog {
     padding: 40px 0 0px;
+}
+
+.partners{
+  padding-bottom: 50px;
 }
 
 .font-w-3{font-weight: 300;}
@@ -190,7 +194,7 @@ section#blog {
 /* ------------------------
     Clients Logo
 ------------------------*/
-.clients-logo {background: #fff; padding: 50px 10px; width: 100%; text-align: center; border-radius: 7px;}
+.clients-logo {background: #fff; padding: 30px 10px; width: 100%; text-align: center; border-radius: 7px;}
 
 
 /* ------------------------
