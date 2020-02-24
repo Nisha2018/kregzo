@@ -89,6 +89,14 @@ section#blog {
   padding-bottom: 50px;
 }
 
+.partners-wrapper .section-title{
+  text-align: center;
+}
+
+.partners-wrapper .section-title .title-effect{
+  margin: auto;
+}
+
 .font-w-3{font-weight: 300;}
 .font-w-4{font-weight: 400;}
 .font-w-5{font-weight: 500;}
