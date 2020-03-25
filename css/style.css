@@ -192,8 +192,8 @@ p {
 
 .lead {
     font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 15px;
 }
 
 .o-hidden {
@@ -227,9 +227,6 @@ h1 span {
     color: #2575fc;
 }
 
-section {
-    padding: 40px 0;
-}
 
 section.about {
     padding: 0;
@@ -986,16 +983,31 @@ iframe {
 ------------------------*/
 .list-icon li {
     position: relative;
-    padding-left: 30px;
+    padding-left: 40px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #036;
+    font-family: 'Baloo Thambi 2', cursive;
 }
 
 .list-icon li i {
     position: absolute;
     left: 0;
-    top: 0;
-    color: #2575fc;
-    font-size: 22px;
-    line-height: 20px;
+    top: 3px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #f90;
+    color: #f90;
+    font-size: 15px;
+    border-radius: 50%;
+    display: grid;
+    line-height: 25px;
+    justify-content: center;
+}
+
+.list-unstyled {
+    display: grid;
+    grid-row-gap: 8px;
 }
 
 .list-icon-2 li {
@@ -1135,7 +1147,7 @@ iframe {
     max-height: 100vh;
     margin: 0;
     position: absolute;
-    bottom: -40px;
+    bottom: 10%;
 }
 
 
@@ -1293,9 +1305,10 @@ iframe {
 ------------------------*/
 .spinner-eff {
     position: absolute;
-    width: 200px;
-    height: 200px;
-    bottom: 0;
+    width: 150px;
+    height: 150px;
+    top: 30vh;
+    right: 42%;
 }
 
 .spinner-eff .spinner-circle {
@@ -1311,7 +1324,7 @@ iframe {
 .spinner-eff .circle-1 {
     width: 100%;
     height: 100%;
-    background-color: #60f691;
+    background-color:#ff99005c;
     top: 0;
     animation: pulse 1.6s linear 0s infinite;
 }
@@ -1319,7 +1332,7 @@ iframe {
 .spinner-eff .circle-2 {
     width: 66.6%;
     height: 66.6%;
-    background-color: #0cca4a;
+    background-color: #f909;
     top: 16.5%;
     animation: pulse-2 1.6s linear 0s infinite;
 }
@@ -1616,23 +1629,81 @@ Ready To Talk CSS
   background: #ffffff;
 }*/
 
-#home .btn-primary {
+#home .btn-primary, #creator .btn-primary  {
     background: #f90;
     color: #fff;
     padding: 15px 25px;
+  /*  border-radius: 30px;*/
 }
 
-#home .btn-primary:hover {
-    background: #003366;
+#home .btn-primary:hover,#creator .btn-primary:hover  {
+    background: #036;
 }
 
-#home h1 {
+#home h1,.home-5 #creator h1 {
     color: #003366;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-weight: 600;
 }
 
 #home .text-bottom {
     padding: 10px;
     font-size: 20px;
+}
+
+.mouse {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 12%;
+    z-index: 99;
+}
+
+.mouse-icon {
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, .7);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.mouse-wheel {
+    height: 30px;
+    margin: 2px auto 0;
+    display: block;
+    width: 30px;
+    background: 0 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-animation: 1.6s ease infinite wheel-up-down;
+    -moz-animation: 1.6s ease infinite wheel-up-down;
+    animation: 1.6s ease infinite wheel-up-down;
+    color: #036;
+    font-size: 20px;
+}
+
+@keyframes wheel-up-down{
+0% {
+    margin-top: 2px;
+    opacity: 1;
+}
+30% {
+    opacity: 1;
+}
+100% {
+    margin-top: 20px;
+    opacity: 0;
+}
 }
 
 .ready-to-talk .btn-primary {
@@ -1738,9 +1809,9 @@ Partner CSS
 }
 
 .background {
-    background-size: cover;
+    /*background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center center;*/
     overflow: hidden;
     will-change: transform;
     -webkit-backface-visibility: hidden;
@@ -1758,6 +1829,18 @@ Partner CSS
 /* Set stacking context of slides */
 .background:nth-child(1) {
     z-index: 5;
+    -webkit-transform: translateY(-15vh);
+    transform: translateY(-15vh);
+}
+
+.background:first-child .content-wrapper {
+  -webkit-transform: translateY(20vh);
+  transform: translateY(20vh);
+}
+
+.background:first-child.up-scroll .content-wrapper {
+    -webkit-transform: translateY(20vh);
+    transform: translateY(20vh);
 }
 
 .background:nth-child(2) {
@@ -1782,13 +1865,9 @@ Partner CSS
     display: flex;
     -webkit-box-pack: center;
     justify-content: center;
-    text-align: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-flow: column nowrap;
-    color: #000;
-    font-family: Montserrat;
-    text-transform: uppercase;
     -webkit-transform: translateY(40vh);
     transform: translateY(40vh);
     will-change: transform;
@@ -1796,11 +1875,6 @@ Partner CSS
     backface-visibility: hidden;
     -webkit-transition: all 1.7s cubic-bezier(0.22, 0.44, 0, 1);
     transition: all 1.7s cubic-bezier(0.22, 0.44, 0, 1);
-}
-
-.content-title {
-    font-size: 12vh;
-    line-height: 1.4;
 }
 
 .background.up-scroll {
@@ -1845,3 +1919,23 @@ Partner CSS
 
 
 /*parallax ends*/
+
+/*slider starts*/
+input[type="radio"]{
+    display: none;
+}
+
+.tab-area-content .tab2, .tab-area-content .tab3{
+    display: none;
+}
+
+#toggle1:checked ~ .tab-area-content .tab1,
+ #toggle2:checked ~ .tab-area-content .tab2,
+ #toggle3:checked ~ .tab-area-content .tab3 {
+    display: grid;
+}
+
+#creator .tab-area-content .tab{
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: auto;
+}
